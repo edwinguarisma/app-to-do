@@ -242,6 +242,48 @@ img {
     transition: all .3s ease;
 }
 
+/* RELOJ APP */
+.temporizador {
+    position: fixed;
+    width: 250px;
+    height: 220px;
+    background: var(--COLOR-BLANCO);
+    border-radius: 20px;
+    bottom: 3rem;
+    right: 3rem;
+    padding: 1.5rem;
+}
+
+.temporizador__content{
+    display: grid;
+    place-content: center;
+    place-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.tiempoTask{
+    color: var(--COLOR-FONDO);
+    font-size: 2rem;
+}
+
+.taskName{
+    color: var(--COLOR-HOVER);
+}
+
+.btn__close{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.btn__close-icon{
+    color: var(--COLOR-FONDO-ALT);
+}
+/* RELOJ APP */
+
 .contenedor__tareas {
     margin: 0 auto;
     margin-top: 3rem;

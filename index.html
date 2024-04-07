@@ -65,6 +65,22 @@
             </div>
 
             <div class="text__tareas-content">
+
+                <div class="temporizador">
+                    <div class="temporizador__content">
+                        <div class="tiempoTask" id="tiempoTask">
+                            <h2>00:00</h2>
+                        </div>
+                        <div class="taskName" id="taskName">
+                            <h4>Name task 1</h4>
+                        </div>
+                        <div class="btn__close">
+                            <i class="fa-solid fa-circle-xmark btn__close-icon"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PARA AÑDIR LAS TAREAS -->
                 <form class="formulario__list" action="#">
                     <div class="info__tarea">
                         <input class="input__text" type="text" placeholder="Agrege su tarea">
@@ -75,9 +91,11 @@
                             <option value="Baja">Baja</option>
                         </select> -->
                     </div>
-                    <button class="btn" type="submit">Agregar</button>
+                    <button class="btn" id="addTask" type="submit">Agregar</button>
                 </form>
+                <!-- PARA AÑDIR LAS TAREAS -->
 
+                <!-- PARA AÑDIR VER LAS TAREAS -->
                 <div class="contenedor__tareas">
                     <div class="contenedor__tareas-box" id="1">
                         <div class="contenedor__tareas-titulo">
@@ -90,30 +108,12 @@
                             <button class="btn">Eliminar</button>
                         </div>
                     </div>
-                    <div class="contenedor__tareas-box" id="1">
-                        <div class="contenedor__tareas-titulo">
-                            <h2 class="nombre__tarea">Agregar nombre Tarea 1</h2>
-                            <!-- <div class="underline"></div> -->
-                        </div>
 
-                        <div class="contenedor__btn">
-                            <button class="btn">Comezar</button>
-                            <button class="btn">Eliminar</button>
-                        </div>
-                    </div>
-                    <div class="contenedor__tareas-box" id="1">
-                        <div class="contenedor__tareas-titulo">
-                            <h2 class="nombre__tarea">Agregar nombre Tarea 1</h2>
-                            <!-- <div class="underline"></div> -->
-                        </div>
 
-                        <div class="contenedor__btn">
-                            <button class="btn">Comezar</button>
-                            <button class="btn">Eliminar</button>
-                        </div>
-                    </div>
 
                 </div>
+                <!-- PARA AÑDIR VER LAS TAREAS -->
+
 
             </div>
 
