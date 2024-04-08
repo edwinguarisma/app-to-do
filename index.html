@@ -81,9 +81,9 @@
                 </div>
 
                 <!-- PARA AÑDIR LAS TAREAS -->
-                <form class="formulario__list" action="#">
+                <form class="formulario__list" id="formulario__list" action="#">
                     <div class="info__tarea">
-                        <input class="input__text" type="text" placeholder="Agrege su tarea">
+                        <input id="task" class="input__text" type="text" placeholder="Agrege su tarea">
                         <!-- <select name="" id="">
                             <option value="">Prioridad</option>
                             <option value="Alta">Alta</option>
@@ -96,18 +96,18 @@
                 <!-- PARA AÑDIR LAS TAREAS -->
 
                 <!-- PARA AÑDIR VER LAS TAREAS -->
-                <div class="contenedor__tareas">
-                    <div class="contenedor__tareas-box" id="1">
+                <div class="contenedor__tareas" id="taskContent">
+                    <!-- <div class="contenedor__tareas-box" id="1">
+                        
                         <div class="contenedor__tareas-titulo">
                             <h2 class="nombre__tarea">Agregar nombre Tarea 1</h2>
-                            <!-- <div class="underline"></div> -->
                         </div>
 
                         <div class="contenedor__btn">
                             <button class="btn">Comezar</button>
                             <button class="btn">Eliminar</button>
                         </div>
-                    </div>
+                    </div> -->
 
 
 
@@ -120,8 +120,9 @@
         </div>
     </main>
 
+    <script src="js/app.js"></script>
 
-    <script src="app.js"></script>
+    <!-- <div class="completado">${item.completado ? `<span class="done">Done</span>` : `<button class="start-btn" data-id="${item.id}">Iniciar</button>`}</div> -->
 </body>
 
 </html>
